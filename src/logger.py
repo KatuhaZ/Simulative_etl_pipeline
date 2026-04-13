@@ -33,7 +33,7 @@ class Logger:
             path,
             when='midnight',  # каждый день
             interval=1,       # каждые 1 сутки
-            backupCount=7,    # хранить 7 файлов (исправить на 3)
+            backupCount=3,    # хранить 3 файла
             encoding='utf-8'
         )
         file_handler.setLevel(logging.INFO)
