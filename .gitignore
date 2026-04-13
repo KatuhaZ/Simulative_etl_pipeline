@@ -1,0 +1,6 @@
+myenv/
+secret/
+test/
+.env
+__pycache__/
+logs/
